@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/canal">
+
+    <Button
+        android:id="@+id/noticias"
+        android:layout_width="300dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button"
+        android:text="TV Noticias"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/documentales"
+        android:layout_width="300dp"
+        android:layout_height="108dp"
+        android:layout_below="@+id/musica"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:text="TV Documentales"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/musica"
+        android:layout_width="300dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        android:background="@drawable/button"
+        android:text="TV MUSICA"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+</RelativeLayout>

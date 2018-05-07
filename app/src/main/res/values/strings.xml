@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Streaming</string>
+    <string name="title_activity_class_tv">Class_tv</string>
+    <string name="title_activity_documentales">Documentales</string>
+</resources>
